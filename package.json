@@ -1,0 +1,24 @@
+{
+  "name": "html-yoga",
+  "version": "1.0.0",
+  "description": "Yoga HTML Template",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "rm -rf ./dist/* && parcel build --public-url ./"
+  },
+  "author": "Damian Komoński",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.2.0",
+    "lazysizes": "^5.3.2"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.6.2",
+    "@parcel/transformer-sass": "^2.6.2",
+    "@parcel/transformer-webmanifest": "^2.6.2",
+    "parcel": "^2.6.2",
+    "parcel-transformer-html-datasrc": "^1.3.3"
+  }
+}
